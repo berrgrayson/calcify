@@ -1,16 +1,15 @@
-# calcify
+# Calcify Scientific Calculator Application
 
-A new Flutter project.
+The goal of this project is to design a mobile application that simulates a complete scientific calculator. The application must allow the user to perform simple calculations as well as more advanced scientific calculations. The interface must be clear, intuitive and accessible, while integrating a wide range of features useful to students, engineers, and researchers.
 
-## Getting Started
+## What the user will be able to do:
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Perform basic arithmetic operations (addition, subtraction, multiplication, division).
+- Calculate advanced functions such as powers, square roots, logarithms, exponentials, etc.
+- Use trigonometric functions (sin, cos, tan, and their inverses) with the ability to work in degrees or radians.
+- Manipulate complex numbers and perform operations with them.
+- Solve complex mathematical equations and expressions.
+- Access a history of calculations performed, with the ability to reuse previous results.
+- Calculate percentages, permutations, combinations, and factors.
+- Work with common scientific constants like pi (π), e (Euler's constant), etc.
+- Add custom features like unit conversions or statistical calculations.
