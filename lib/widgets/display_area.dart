@@ -8,7 +8,7 @@ class DisplayArea extends StatelessWidget {
   DisplayArea({required this.equation, required this.result});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) { 
     return Column(
       children: [
         Container(
