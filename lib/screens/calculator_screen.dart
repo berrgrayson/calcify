@@ -41,6 +41,13 @@ class CalculatorScreen extends StatelessWidget {
                 CalcButton(text: '*', onTap: () => calcState.appendOperator('*')),
                 CalcButton(text: 'nPr', onTap: () => calcState.appendPermutation()),
 
+                // Row 1: Basic numbers and operators
+                CalcButton(text: '1', onTap: () => calcState.appendValue('1')),
+                CalcButton(text: '2', onTap: () => calcState.appendValue('2')),
+                CalcButton(text: '3', onTap: () => calcState.appendValue('3')),
+                CalcButton(text: '-', onTap: () => calcState.appendOperator('-')),
+                CalcButton(text: '', onTap: () => ()),
+
                 // Row 3: Advanced functions
                 CalcButton(text: 'sin', onTap: () => calcState.appendAdvancedFunction('sin')),
                 CalcButton(text: 'cos', onTap: () => calcState.appendAdvancedFunction('cos')),
